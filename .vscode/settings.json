@@ -1,0 +1,10 @@
+{
+    "chat.mcp.serverSampling": {
+        "Webflow MCP/.vscode/mcp.json: webflow": {
+            "allowedModels": [
+                "copilot/gpt-4.1",
+                "copilot/claude-sonnet-4"
+            ]
+        }
+    }
+}
