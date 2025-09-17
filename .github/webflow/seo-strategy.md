@@ -300,9 +300,9 @@ validations:
 **Apply**
 1. Re-read `/webflow/seo/{site_name}/SEO-PLAN.md` and `/webflow/seo/{site_name}/SCHEMAS.md`.
 2. For each page with `status: approved`:
-   - Update Webflow SEO title and description.
-   - Upsert schema from SCHEMAS.md as a single consolidated JSON-LD block in the page head.
+   - Update Webflow SEO title and description. 
    - Mark the page `status: applied` and set `applied_at` timestamp.
+   - Mark the schemas from updated pages from SCHEMAS.md for the user to add on each page (this is not currently an operation that the mcp can perform)
 
 **Schema Generation**
 1. Generate `/webflow/seo/{site_name}/SCHEMAS.md` with format:
